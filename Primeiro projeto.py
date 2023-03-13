@@ -10,6 +10,7 @@ if user == "S" :
     print(" Vamos começar...")
 elif user == "N":
     print(" Volte mais tarde então...")
+    quit()
 else:
     quit()
 

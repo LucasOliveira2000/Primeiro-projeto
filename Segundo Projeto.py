@@ -7,12 +7,13 @@ perguntas = ["1.Qual plataforma faz parte o jogo Lost Ark?", "2.Qual plataforma 
 respostas = ["steam", "riot games", "branco"]
 pontuacao = 0
 
-user = input(' Quer começar? (S/N) ').upper()
+user = input(' Quer começar? (S/N) :  ').upper()
 
 if user == "S":
     print(" Vamos começar...")
     print("\n")
 elif user == "N":
+    print("\n")
     print(" Volte mais tarde então...")
     print("\n")
     quit()
